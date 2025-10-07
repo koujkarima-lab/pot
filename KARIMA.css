@@ -1,0 +1,28 @@
+body{
+    height: auto;
+}
+.continer{
+    display: flex;
+    gap: 1em;
+    background-color: whitesmoke;
+    padding: 3em;
+}
+.abme{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2.5px 2px rgb(75, 73, 73);
+    padding-top: 13px;
+}
+.About{
+    padding: 15px;
+    width: 80%;
+}
+button{
+    background-color: #2E7EAA;
+    border: none;
+    height: 3em;
+    width: 12em;
+    color: white;
+}

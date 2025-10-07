@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 100vh;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    text-align: center;
+    width: 683px;
+    background-color:#6BBBE5;
+}
+.lo h1{
+    display: flex;
+    justify-content: center;
+    padding-right: 156px;
+}
+
+.para .my{
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+.para{
+    display: flex;
+    justify-items: center;
+}
+.btn {
+   padding: 56px;
+   display: flex;
+   gap: 8px;
+   flex-direction: column;
+   
+    
+} 
+    
+label{
+    
+    width: 70px;
+    color: white;
+    background-color:#09547c;
+    height: 18px;
+}
+.ww{
+    display: flex;
+}
+progress{
+    height: 18px;
+    background-color: #6BBBE5;
+    
+
+}
+progress {
+  border: 1px solid #ccc;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+progress::-webkit-progress-value {
+  background-color: #2E7EAA;
+}
+
+
+.br{
+    padding-left: 50px;
+    padding-top:33px;
+}
+.lo p{
+  width: 91%;
+}
+.br p{
+    position: relative;
+    bottom: 20px;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: whitesmoke;
+}
+
+nav{
+    display: flex;
+    justify-items: center;
+   gap: 450PX;
+
+}
+
+.home {
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    padding: 40PX;
+   gap: 40PX;
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   
+}
+h1{
+    display: flex;
+    align-items: center;
+   margin: 10PX;
+   color: black;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 1PX;
+   color: black;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+   padding-left: 65PX;
+   margin-top: 70PX;
+   color:black;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    font-family: unset;
+    padding: 25PX;
+    
+   
+    color:black;
+    
+}
+button{
+    color:B;
+    border: 2Px solid black;
+    background-color: transparent;
+    position: relative;
+    left: 100px;
+  width:130PX  ;
+  height: 30PX;
+
+}
+.ecrit {
+    font-size: x-large;
+    background-image: url(https://img.freepik.com/free-photo/portrait-stylish-girl-colorful-summer-outfit-pointing-fingers-left-promo-offer-showing-your-logo-smiling-happy-camera-standing-blue-background_1258-128568.jpg?semt=ais_incoming&w=740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 50PX; 
+    padding-left: 1PX;
+}
+
