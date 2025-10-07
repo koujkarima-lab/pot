@@ -1,0 +1,281 @@
+body{
+    width: 80%;
+    padding: 0;
+    justify-self: center;
+
+}
+nav{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px
+
+}
+.home {
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    padding: 40PX;
+   gap: 40PX;
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.titres h1{
+    display: flex;
+    align-items: center;
+   margin: 10PX;
+   color: black;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:rrgb(0, 0, 0)
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+   padding-left: 72PX;
+   color:black;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    font-family: unset;
+    padding-left: 32px;
+    color:black;
+}
+.ecrit button{
+    color:Black;
+    border: 2Px solid black;
+    background-color: transparent;
+    position: relative;
+    left: 100px;
+  width:130PX  ;
+  height: 30PX;
+}
+.ecrit {
+    font-size: x-large;
+    background-image: url(https://img.freepik.com/free-photo/portrait-stylish-girl-colorful-summer-outfit-pointing-fingers-left-promo-offer-showing-your-logo-smiling-happy-camera-standing-blue-background_1258-128568.jpg?semt=ais_incoming&w=740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 50PX; 
+    padding-left: 1PX;
+}
+.continer{  
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    justify-items: center;
+    align-items: center;
+    height: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.abme{
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 5.5px 8px  rgb(75, 73, 73);
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+.About{
+    width: 78%;
+    padding-top: 22px;
+
+}
+.About p{
+    font-size: 20px;
+
+}
+.About button{
+
+    color:rgb(0, 0, 0);
+    font-size: large;
+    border: 2Px solid black;
+    background-color: #2E7EAA;
+    width:240PX  ;
+    height: 60PX;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:#6BBBE5;
+    height: 461px;
+}
+
+.lo{
+     display: flex ;
+     flex-direction: column;
+     justify-items: center;
+}
+
+
+.para .my{
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+}
+.btn {
+   padding: 19px 0 0 154px;
+   display: flex;
+   gap: 8px;
+   flex-direction: column;
+} 
+label{
+    
+    width: 70px;
+    color: white;
+    background-color:#09547c;
+    height: 21px;
+}
+.ww{
+    display: flex;
+}
+progress{
+    height: 22px;
+    background-color: #6BBBE5;
+}
+progress {
+  border: 1px solid #ccc;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+progress::-webkit-progress-value {
+  background-color: #2E7EAA;
+}
+.br{
+    padding-left: 187px;
+    padding-top:33px;
+}
+
+.br p{
+    position: relative;
+    bottom: 29px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 630px;
+    
+}
+.container h4{
+    padding: 0 0px 0px 65px;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 5.5px 8px  rgb(75, 73, 73);
+}
+.first{
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    gap: 32px;
+    text-decoration: underline;
+    text-underline-offset: 13px;
+
+}
+.first button{
+    padding: 80px  27px;
+    width: 202px;
+    background-color: #6BBBE5;
+    box-shadow: 0 2px 5px rgb(123, 119, 119);
+    border: none;
+}
+.second{
+    justify-content: center;
+    justify-items: center;
+    padding-top: 20px;
+display: flex;
+gap: 32px;
+
+}
+.second button{
+   padding: 80px  27px;
+    width: 202px;
+    background-color: #2E7EAA;
+    box-shadow: 0 2px 5px rgb(123, 119, 119);
+    border: none;
+}
+.both1{
+    background-color: #6BBBE5!important;
+}
+.both2{
+    background-color:  #2E7EAA !important;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6BBBE5;   
+}
+.bleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.bcenter button{
+    width: 200px;
+    height: 50px;
+    background-color: #6BBBE5;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.bottom h1{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    padding-right: 30px;
+}
+.touch{
+    padding-left: 30px;
+}
+.icons1 h1 ,.icons2 h1{
+    padding-left: 12px;
+    color: black;
+}
+.icons1, .icons2 {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.icons3{
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
+    transform: scale(1.4);
+}
+.icons{
+    padding-top: 10px;
+}
+
